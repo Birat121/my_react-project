@@ -1,0 +1,222 @@
+body {
+  
+  display: flex;
+  margin-top: 150px;
+  place-items: center;
+  background-color: hsl(0, 5%, 29%);
+  width:100%;
+}
+
+#root{
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+.card{
+  border:1px solid rgba(44, 35, 51, 0.829);
+  border-radius:30px;
+  box-shadow: 3px 3px rgb(31, 7, 7);
+  padding: 20px;
+  margin: 12px;
+  text-align: center;
+  max-width: 250px;
+  
+  position: relative;
+  left: calc(240%)
+  
+}
+
+.card .card-image
+{
+  max-width:80%;
+  height:auto;
+  border-radius: 12%;
+  margin-bottom:8px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin:0;
+  color: hsl(hue, saturation, lightness)
+}
+
+.card .card-text
+{
+  font-size:18px;
+  font-family: Arial, sans-serif;
+  color: hsl(hue, saturation, lightness);
+}
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border:1px solid rgba(26, 25, 25, 0.856);
+  border-radius:40px;
+  box-shadow: 4px 4px rgb(31, 7, 7);
+  position:relative;
+  text-align: center;
+  
+}
+.Comp{
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+  border: 3px solid;
+  border-radius: 18px;
+  padding:8px;
+  margin-top: 0;
+  text-align: center;
+
+}
+.btn{
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color:rgba(255, 255, 255, 0.603);
+  background-color: rgba(13, 24, 63, 0.575);
+}
+
+.btn:hover{
+  background-color:black;
+  color: cornflowerblue;
+}
+
+.list{
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  margin-left: 20px;
+  position: relative;
+  
+  
+  
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.count-display
+{
+  font-size: 8em;
+  margin-top:0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover
+{
+  background-color: blanchedalmond;
+}
+
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  width:600px;
+  left:calc(50%-300px);
+  text-align: center;
+  margin-top: 100px;
+  position: fixed;
+  
+  
+
+  border:20px;
+  border-radius: 100px;
+}
+h1{
+  font-size: 4rem;
+
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+}
+
+.add-button{
+  background-color: hsl(125,47%,54%);
+
+}
+
+.add-button:hover{
+  background-color: hsl(59, 47%, 54%);
+
+}
+
+.delete-button
+{
+  background-color: hsl(2, 61%, 35%);
+
+}
+
+.delete-button:hover{
+  background-color: hsl(59, 47%, 54%);
+}
+
+.move-button{
+  background-color: hsl(204, 47%, 54%);
+}
+.move-button:hover{
+  background-color: hsla(346, 42%, 51%, 0.671);
+}
+
+input[type=text]
+{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(10,40%,54%);
+}
+
+ol{
+  padding:0;
+
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(229, 235, 225);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+.text{
+  flex:1;
+
+}
+
+.delete-button,.move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
